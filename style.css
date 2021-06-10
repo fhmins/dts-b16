@@ -43,9 +43,11 @@ header {
     /* float: right;
     display: block; */
     color: rgb(255, 255, 255);
-    padding: 15px 30px 20px 30px;
+    padding: 16px 30px;
     text-decoration: none;
     /* font-size: 20px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 span.menu-icon {
@@ -69,22 +71,20 @@ span.menu-icon {
 
 
 /* JUMBOTRON BY ELYNA*/
-
 .top-wrapper {
-    background-img: url('img/gambar.png');
+    background-image: url(img/main.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-size: 100%; */
-    padding-bottom: 135px;
     width: 100%;
     color: white;
-    padding-top: 65px;
+    padding-top: 200px;
     text-align: center;
 }
 
 .top-wrapper h1 {
     padding-top: 10px;
-    /* font-size: 85px; */
+    font-size: 100px;
     letter-spacing: 15px;
     margin-bottom: 10px;
 }
@@ -96,13 +96,14 @@ span.menu-icon {
 }
 
 .top-wrapper p {
-    color: black;
-    background-color: #dcdde1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(104, 104, 231);
     /* font-size: 20px; */
     letter-spacing: 5px;
     margin-bottom: 50px;
     display: inline-block;
     padding: 3px 60px;
+    border-radius: 15px;
 }
 
 .btn-wrapper {
@@ -115,7 +116,6 @@ span.menu-icon {
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
-
 }
 
 .btn {
@@ -138,18 +138,13 @@ span.menu-icon {
 }
 
 .container {
-     width: 100%;
-     padding: 20px 100px;
-     margin-right: auto;
-     margin-left: auto;
-     text-align: center;
-     
-}
-.section-title {
-    padding-top: 60px;
-}
+    width: 100%;
+    padding: 10px 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}     
 .section-title h2{
-
     color: blue;
 }
 
