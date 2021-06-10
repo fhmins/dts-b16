@@ -1,0 +1,135 @@
+/* RESPONSIVE */
+
+@media (max-width:1000px) {
+
+    /* HEADER */
+   #link-navbar {
+        display: none;
+   }
+
+   span.menu-icon {
+       display: block;
+       cursor: pointer;
+   }
+
+   
+    /* JUMBOTRON */
+
+    .top-wrapper {
+        background-size: cover;
+    }
+
+    .top-wrapper p {
+        padding: 2px 10px;
+    }
+
+    /* PROFIL */
+    .card-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        justify-content: center;
+        flex: auto;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    img {
+        max-width: 100px;
+    }
+
+    
+
+}
+
+@media (max-width:670px) {
+
+    /* HEADER */
+    #link-navbar {
+        display: none;
+        flex: auto;
+        flex-direction: column;
+    }
+
+    /* Add CSS for menu-icon */
+    span.menu-icon {
+        display: block;
+    }
+
+    /* JUMBOTRON */
+    .top-wrapper {
+        text-align: left;
+        background-size: cover;
+    }
+
+    .top-wrapper h1 {
+        /* font-size: 25px; */
+        letter-spacing: 5px;
+        padding-top: 30px;
+    }
+
+    .top-wrapper h2 {
+        /* font-size: 15px; */
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+    }
+
+    .top-wrapper p {
+        /* font-size: 10px; */
+        letter-spacing: 0;
+        text-align: left;
+        padding: 2px 10px;
+    }
+
+    .started {
+        background-color: #192a56;
+        font-weight: normal;
+        /* font-size: 10px; */
+    }
+
+    .btn {
+        padding: 8px 12px;
+    }
+
+    /* PROFIL */
+    .card-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER */
+    .footer-distributed {
+        font: bold 14px sans-serif;
+
+    }
+
+    .footer-left,
+    .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .footer-center{
+        display: none;
+    }
+
+    .footer-center i {
+        margin-left: 0;
+    }
+
+    .main {
+        line-height: normal;
+        font-size: auto;
+    }
+
+}
