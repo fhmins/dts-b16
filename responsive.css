@@ -3,7 +3,7 @@
 @media (max-width:1000px) {
 
     /* HEADER */
-   #link-navbar {
+#link-navbar {
         display: none;
    }
 
@@ -46,17 +46,26 @@
 
 @media (max-width:670px) {
 
-    /* HEADER */
-    #link-navbar {
-        display: none;
-        flex: auto;
-        flex-direction: column;
-    }
+/* HEADER */
+#link-navbar {
+    display: none;
+    flex: auto;
+    flex-direction: column;
+}
 
-    /* Add CSS for menu-icon */
-    span.menu-icon {
-        display: block;
-    }
+.menu-icon {
+    float: right;
+    margin: 0;
+}
+
+.menu-icon {
+    float: right;
+}
+
+/* Add CSS for menu-icon */
+span.menu-icon {
+    display: block;
+}
 
     /* JUMBOTRON */
     .top-wrapper {
@@ -65,21 +74,21 @@
     }
 
     .top-wrapper h1 {
-        /* font-size: 25px; */
+        font-size: 30px;
         letter-spacing: 5px;
         padding-top: 30px;
     }
 
     .top-wrapper h2 {
-        /* font-size: 15px; */
+        font-size: 15px;
         letter-spacing: 2px;
         margin-bottom: 5px;
     }
 
     .top-wrapper p {
-        /* font-size: 10px; */
+        font-size: 20px;
         letter-spacing: 0;
-        text-align: left;
+        text-align: center;
         padding: 2px 10px;
     }
 
@@ -114,22 +123,22 @@
     .footer-left,
     .footer-right {
         display: block;
-        width: 100%;
-        margin-bottom: 10px;
-        text-align: center;
-    }
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-    .footer-center{
-        display: none;
-    }
+.footer-center{
+    display: none;
+}
 
-    .footer-center i {
-        margin-left: 0;
-    }
+.footer-center i {
+    margin-left: 0;
+}
 
-    .main {
-        line-height: normal;
-        font-size: auto;
-    }
+.main {
+    line-height: normal;
+    font-size: auto;
+}
 
 }
