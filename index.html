@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>group-B16</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("link-navbar");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-navbar">
+                    <img src="img/logo.png" alt="Logo G-B16">
+                </div>
+                <!-- <a href="#" class="icon-navbar">
+                    <i class="fa fa-bars"></i>
+                </a> -->
+                <span class="fa fa-bars menu-icon" onclick="myFunction()"></span>
+                <div id="link-navbar">
+                    <a href="#Home"><span class="fa fa-home"></span>Home</a>
+                    <a href="#Profil"><span class="fa fa-user"></span>Anggota</a>
+                    <a href="#"><span class="fa fa-folder"></span>Portofolio</a>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <section id="Home">
+
+        <div class="top-wrapper">
+            <div class="container">
+                <h1>WELCOME</h1>
+                <h2>KAMI KELOMPOK B16</h2>
+                <p>Berasal dari latar belakang yang berbeda, dengan tujuan yang sama</p>
+                <div class="btn-wrapper">
+                    <a href="#" class="btn started">Let's Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Profil">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+            </div>
+        </div> 
+        <div class="container card-wrap">
+            <div class="card">
+                <img src="img/male_avatar.png" alt="">
+                <h3>Eko Ardyanto</h3>
+                <h5>Batam, Kep. Riau</h5>
+                <a href=""><span class="fa fa-instagram icon-ig"></span> Instagram</a>
+            </div>
+            <div class="card">
+                <img src="img/female_avatar.png" alt="">
+                <h3>Daru Sosetyoning Pamuncak</h3>
+                <h5>Wonosobo, Jawa Tengah</h5>
+                <a href=""><span class="fa fa-instagram icon-ig"></span> Instagram</a>
+            </div>
+            <div class="card">
+                <img src="img/male_avatar.png" alt="">
+                <h3>Fahmi Insanul Muttaqin</h3>
+                <h5>Garut, Jawa Barat</h5>
+                <a href=""><span class="fa fa-instagram icon-ig"></span> Instagram</a>
+            </div>
+            <div class="card">
+                <img src="img/female_avatar.png" alt="">
+                <h3>Elyna Puspita Rahayu</h3>
+                <h5>Klaten, Jawa Tengah</h5>
+                <a href=""><span class="fa fa-instagram icon-ig"></span> Instagram</a>
+            </div>
+            <div class="card">
+                <img src="img/male_avatar.png" alt="">
+                <h3>Fajar Sidik</h3>
+                <h5>Asal Daerah</h5>
+                <a href=""><span class="fa fa-instagram icon-ig"></span> Instagram</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <img class="logo" src="/img/logo.png">
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Anggota</a>
+                ·
+                <a href="#">Portofolio</a>
+            </p>
+            <p class="footer-company-name">group-B16 &copy; 2021</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Dari Sabang</span>Sampai Merauke</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+62 888 99999</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p class="mail-links"><a href="mailto:contact@gb16.com">contact@gb16.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the group</span>
+                We are unity in diversity. Out of sight, out of mind.
+            </p>
+            <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
